@@ -1,5 +1,3 @@
-require('dotenv').config();
-
 const Sequelize = require('sequelize');
 
 // Create a connection object
@@ -9,7 +7,7 @@ const sequelize = new Sequelize(
   // User
   'root',
   // Password
- 
+  'Tofusombra',
   {
     // Database location
     host: 'localhost',
