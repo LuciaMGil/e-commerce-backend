@@ -2,7 +2,18 @@ const Sequelize = require('sequelize');
 
 // Create a connection object
 const sequelize = new Sequelize(
-
+  // Database name
+  'ecommerce_db',
+  // User
+  'root',
+  // Password
+  'Tofusombra',
+  {
+    // Database location
+    host: 'localhost',
+    dialect: 'mysql',
+    port: 3306,
+  }
 );
 
 
